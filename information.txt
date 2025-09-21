@@ -1,0 +1,3 @@
+brew install qemu
+brew install socket_vmnet
+HOMEBREW=$(which brew) && sudo ${HOMEBREW} services start socket_vmnet
